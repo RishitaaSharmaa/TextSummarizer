@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+pymupdf
+python-dotenv
+groq
+openai
+tiktoken
+transformers
+tokenizers
+requests
+numpy
+pandas
+PyPDF2
+ipykernel
