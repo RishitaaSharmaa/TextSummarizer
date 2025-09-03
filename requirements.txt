@@ -14,3 +14,8 @@ numpy
 pandas
 PyPDF2
 ipykernel
+pytube
+validators
+youtube_transcript_api
+unstructured
+streamlit
