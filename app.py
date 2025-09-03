@@ -1,3 +1,5 @@
+# This app uses stuff chain document technique for summarization
+
 import streamlit as st
 import validators
 from langchain.prompts import PromptTemplate
@@ -27,7 +29,7 @@ if st.button("Summarize the Content"):
         st.error("Please provide the information")
 
     elif not validators.url(url):
-        st.error("Please enter a valid url")
+        st.error("Please enter a valid url!")
 
     else:
         try:
